@@ -139,6 +139,9 @@ app.get("/logout",(req,res)=>{
     })
 
 })
+app.get("/subscription",(req,res)=>{
+  res.render("subscription_form");
+})
 app.post("/register",(req,res)=>{
     User.register({username: req.body.username}, req.body.password,(err,user)=>{
         if(err){
