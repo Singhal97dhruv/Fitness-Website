@@ -770,6 +770,11 @@ section {
   background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
 }
 
+.red-custom{
+  background-color: #f00;
+}
+
+
 @media (max-width: 768px) {
   #menu-btn {
     display: inline-block;
