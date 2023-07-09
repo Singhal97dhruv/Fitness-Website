@@ -29,14 +29,15 @@
 
     <nav class="navbar">
         <a href="/">home</a>
-        <a href="#about">about</a>
-        <a href="#features">features</a>
-        <a href="#pricing">pricing</a>
-        <a href="#trainers">trainers</a>
-        <a href="/blogs">blogs</a>
+        <a href="/#about">about</a>
+        <a href="/#features">features</a>
+        <a href="/#pricing">pricing</a>
+        <a href="/#trainers">trainers</a>
         <% if(user){ %>
+            <a href="/blogs">blogs</a>
             <a href="/logout">Logout</a>
         <% }else{%>
+            <a href="/login">blogs</a>
             <a href="/register">Register</a>
             <a href="/login">Login</a>
         <%}%>
